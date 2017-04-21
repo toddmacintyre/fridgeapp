@@ -26,7 +26,7 @@ const config = {
       {
         use: [{
           loader: 'babel-loader',
-          options: { presets: ['airbnb', 'stage-1'] },
+          options: { presets: ['airbnb', 'stage-2'] },
         }],
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
